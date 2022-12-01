@@ -9,6 +9,6 @@ jobs:
     steps:
       - id: step3
         name: step1_name
-        run: echo "test=hello" >> $GITHUB_OUTPUT
+        run: echo "test=helloooooo" >> $GITHUB_OUTPUT
       - name: step2_name
         run: echo ${{steps.step3.outputs.test}}
